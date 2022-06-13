@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll(".button");
+const buttons = document.querySelectorAll(".buttons");
 const buttonsCount = buttons.length;
 const result = document.querySelector("#result-now");
 

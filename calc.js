@@ -68,22 +68,16 @@ function calculate(operand) {
   switch (operand) {
     case "+":
       return firstNum + secondNum;
-      break;
     case "-":
       return firstNum - secondNum;
-      break;
     case "x":
       return firstNum * secondNum;
-      break;
     case "÷":
       return firstNum / secondNum;
-      break;
     case "%":
       return firstNum / 100;
-      break;
     case "±":
       return firstNum * -1;
-      break;
   }
 }
 function clearAll() {
